@@ -1,10 +1,11 @@
 
 import React from 'react';
+import './my.css';
 
-const MyComponent = () => {
+const MyComponent = (props) => {
     return (
-        <div>
-            hello my component
+        <div className='my-component'>
+            {props.count}
         </div>
     );
 };

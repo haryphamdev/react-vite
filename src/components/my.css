@@ -1,0 +1,6 @@
+.my-component {
+    color        : white;
+    padding      : 5px;
+    border-radius: 50%;
+    border       : 1px solid red;
+}
