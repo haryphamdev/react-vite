@@ -1,6 +1,7 @@
 import logo from './logo.svg'
 import './App.css'
 import SuperForm2 from './components/hooks/SuperForm2'
+import TestAudio from './components/hooks/TestAudio'
 
 
 function App() {
@@ -10,9 +11,10 @@ function App() {
       <header className="App-header">
 
         <img src={logo} className="App-logo" alt="logo" />
+        {/* <SuperForm2 />
         <SuperForm2 />
-        <SuperForm2 />
-        <SuperForm2 />
+        <SuperForm2 /> */}
+        <TestAudio />
       </header>
     </div>
   )
