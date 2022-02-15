@@ -1,7 +1,24 @@
-const ChildComponent = (props) => {
-    const callYourParent = () => {
-        props.parentFunc2("i'm eric");
-    }
+import { useEffect, forwardRef, useImperativeHandle } from "react";
+import { emitter } from "./emitter";
+
+const ChildComponent = (props, ref) => {
+    useEffect(() => {
+        emitter.on("test", (data) => {
+            fireChildFunction(data);
+        })
+    }, []);
+
+    // const fireChildFunction = (data) => {
+    //     alert(data)
+    // }
+
+    useImperativeHandle(ref, () => ({
+
+        fireChildFunction() {
+            alert("getAlert from Child");
+        }
+
+    }));
     return (
         <div className="child">
             I'm a child
@@ -12,4 +29,4 @@ const ChildComponent = (props) => {
     )
 }
 
-export default ChildComponent;
+export default forwardRef(ChildComponent);
