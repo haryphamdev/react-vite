@@ -4,6 +4,7 @@ import SuperForm2 from './components/hooks/SuperForm2'
 import TestAudio from './components/hooks/TestAudio'
 import SuperInput from './components/hooks/children/SuperInput'
 import ErrorBoundaries from './components/hooks/errorBoundaries/ErrorBoundaries'
+import Parent from './components/hooks/ChildrenAndParent/Parent'
 
 
 function App() {
@@ -18,7 +19,9 @@ function App() {
         <SuperForm2 />
         <SuperForm2 /> */}
           {/* <TestAudio /> */}
-          <SuperInput />
+          {/* <SuperInput /> */}
+
+          <Parent />
         </header>
       </div>
     </ErrorBoundaries>
