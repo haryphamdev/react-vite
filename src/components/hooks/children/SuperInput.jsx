@@ -2,6 +2,7 @@ import HideShowInput from "./HideShowInput";
 
 const SuperInput = (props) => {
     const role = "user";
+    const test = {}
 
     return (
         <>
