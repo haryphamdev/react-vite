@@ -13,7 +13,7 @@ const TestAudio = (props) => {
     }
 
     return (
-        <div>
+        <div className="test-audio">
             <Music ref={audioRef} />
             <button onClick={() => handlePlay()}>
                 Play
