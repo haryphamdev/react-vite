@@ -1,7 +1,14 @@
-import { useCallback, useState, useMemo } from 'react';
+import { useCallback, useState, useMemo, useEffect } from 'react';
 import AddTodo from './AddTodo';
-
+import { useFetch } from '../custom/hookUtil';
 const TodoList = (props) => {
+
+    const { data } = useFetch('https://jsonplaceholder.typicode.com/albums');
+
+    console.log(data)
+
+
+
     const [count, setCount] = useState("");
 
     const [todos, setTodos] = useState([
@@ -32,7 +39,7 @@ const TodoList = (props) => {
     const superVar = useMemo(
         () => {
             let result = 0;
-            for (let i = 0; i < 1000000000; i++) {
+            for (let i = 0; i < 1; i++) {
                 result += i;
             }
             return result;
