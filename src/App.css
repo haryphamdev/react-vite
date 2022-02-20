@@ -1,3 +1,17 @@
+span {
+  padding: 15px;
+  cursor : pointer;
+}
+
+.active {
+  color        : red;
+  border-bottom: 2px solid green;
+}
+
+.tabs {
+  margin-bottom: 20px;
+}
+
 .parent {
   height       : 300px;
   border       : 1px solid #61dafb;

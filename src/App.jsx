@@ -6,6 +6,7 @@ import SuperInput from './components/hooks/children/SuperInput'
 import ErrorBoundaries from './components/hooks/errorBoundaries/ErrorBoundaries'
 import Parent from './components/hooks/ChildrenAndParent/Parent'
 import TodoList from './components/hooks/callback/TodoList'
+import MyTabs from './components/hooks/children/MyTabs'
 
 
 function App() {
@@ -23,8 +24,9 @@ function App() {
           {/* <div className='super-input-container'>
             <SuperInput />
           </div> */}
-          <TodoList />
+          {/* <TodoList /> */}
 
+          <MyTabs />
 
           {/* <Parent /> */}
         </header>
