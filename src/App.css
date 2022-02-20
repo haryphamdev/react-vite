@@ -17,12 +17,12 @@
 
 
 
-
-
-
-
-
-
+.super-input-container {
+  display  : flex;
+  gap      : 20px;
+  flex-wrap: wrap;
+  padding  : 10px;
+}
 
 
 
@@ -53,7 +53,7 @@ input {
 }
 
 .App-logo {
-  height        : 40vmin;
+  height        : 15vmin;
   pointer-events: none;
 }
 

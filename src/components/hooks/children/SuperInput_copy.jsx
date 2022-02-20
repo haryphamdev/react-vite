@@ -7,16 +7,17 @@ const SuperInput = (props) => {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [address, setAddress] = useState("");
+
     return (
         <>
             <HideShowInput role={role} name={"name"} valueInput={name}>
                 <div className="form-group">
                     <label>Name:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={name}
                         onChange={(event) => setName(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -26,10 +27,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Email:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={email}
                         onChange={(event) => setEmail(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -39,10 +40,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -51,10 +52,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -63,10 +64,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -75,10 +76,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -87,10 +88,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -99,10 +100,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -111,10 +112,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -123,10 +124,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -135,10 +136,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -147,10 +148,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -159,10 +160,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -171,10 +172,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -183,22 +184,21 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
-            </HideShowInput>
-            <HideShowInput role={role} name={"address"} valueInput={address}>
+            </HideShowInput>            <HideShowInput role={role} name={"address"} valueInput={address}>
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -207,10 +207,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -219,10 +219,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -231,10 +231,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -243,22 +243,21 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
-            </HideShowInput>
-            <HideShowInput role={role} name={"address"} valueInput={address}>
+            </HideShowInput>            <HideShowInput role={role} name={"address"} valueInput={address}>
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -267,10 +266,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -279,10 +278,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -291,10 +290,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -303,22 +302,21 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
-            </HideShowInput>
-            <HideShowInput role={role} name={"address"} valueInput={address}>
+            </HideShowInput>            <HideShowInput role={role} name={"address"} valueInput={address}>
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -327,10 +325,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -339,10 +337,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -351,10 +349,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -363,22 +361,21 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
-            </HideShowInput>
-            <HideShowInput role={role} name={"address"} valueInput={address}>
+            </HideShowInput>            <HideShowInput role={role} name={"address"} valueInput={address}>
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -387,10 +384,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -399,10 +396,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -411,10 +408,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -423,22 +420,21 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
-            </HideShowInput>
-            <HideShowInput role={role} name={"address"} valueInput={address}>
+            </HideShowInput>            <HideShowInput role={role} name={"address"} valueInput={address}>
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -447,10 +443,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -459,10 +455,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -471,10 +467,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -483,22 +479,21 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
-            </HideShowInput>
-            <HideShowInput role={role} name={"address"} valueInput={address}>
+            </HideShowInput>            <HideShowInput role={role} name={"address"} valueInput={address}>
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -507,10 +502,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -519,10 +514,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -531,10 +526,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -543,10 +538,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -555,10 +550,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -567,10 +562,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -579,10 +574,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -591,10 +586,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -603,22 +598,21 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
-            </HideShowInput>
-            <HideShowInput role={role} name={"address"} valueInput={address}>
+            </HideShowInput>            <HideShowInput role={role} name={"address"} valueInput={address}>
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -627,10 +621,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -639,10 +633,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -651,10 +645,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -663,22 +657,21 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
-            </HideShowInput>
-            <HideShowInput role={role} name={"address"} valueInput={address}>
+            </HideShowInput>            <HideShowInput role={role} name={"address"} valueInput={address}>
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -687,10 +680,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -699,10 +692,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -711,10 +704,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -723,22 +716,21 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
-            </HideShowInput>
-            <HideShowInput role={role} name={"address"} valueInput={address}>
+            </HideShowInput>            <HideShowInput role={role} name={"address"} valueInput={address}>
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -747,10 +739,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -759,10 +751,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -771,10 +763,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -783,22 +775,21 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
-            </HideShowInput>
-            <HideShowInput role={role} name={"address"} valueInput={address}>
+            </HideShowInput>            <HideShowInput role={role} name={"address"} valueInput={address}>
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -807,10 +798,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -819,10 +810,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -831,10 +822,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -843,22 +834,21 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
-            </HideShowInput>
-            <HideShowInput role={role} name={"address"} valueInput={address}>
+            </HideShowInput>            <HideShowInput role={role} name={"address"} valueInput={address}>
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -867,10 +857,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -879,10 +869,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -891,10 +881,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -903,22 +893,21 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
-            </HideShowInput>
-            <HideShowInput role={role} name={"address"} valueInput={address}>
+            </HideShowInput>            <HideShowInput role={role} name={"address"} valueInput={address}>
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -927,10 +916,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -939,10 +928,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -951,10 +940,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -963,22 +952,21 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
-            </HideShowInput>
-            <HideShowInput role={role} name={"address"} valueInput={address}>
+            </HideShowInput>            <HideShowInput role={role} name={"address"} valueInput={address}>
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -987,10 +975,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -999,10 +987,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -1011,10 +999,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -1023,10 +1011,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -1035,10 +1023,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -1047,10 +1035,10 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
@@ -1059,15 +1047,14 @@ const SuperInput = (props) => {
                 <div className="form-group">
                     <label>Address:</label>
                     <input
-                        type="text"
-                        className="form-control"
                         value={address}
                         onChange={(event) => setAddress(event.target.value)}
+                        type="text"
+                        className="form-control"
                     />
                 </div>
                 <br />
             </HideShowInput>
-
 
         </>
     )

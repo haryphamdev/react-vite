@@ -19,9 +19,12 @@ function App() {
         <SuperForm2 />
         <SuperForm2 /> */}
           {/* <TestAudio /> */}
-          {/* <SuperInput /> */}
+          <div className='super-input-container'>
+            <SuperInput />
+          </div>
 
-          <Parent />
+
+          {/* <Parent /> */}
         </header>
       </div>
     </ErrorBoundaries>

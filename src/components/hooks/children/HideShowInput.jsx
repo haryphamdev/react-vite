@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const HideShowInput = (props) => {
     const { name, role } = props;
@@ -23,4 +23,18 @@ const HideShowInput = (props) => {
         </>
     )
 }
-export default HideShowInput;
+
+// export default HideShowInput;
+
+const areEqual = (prevProps, nextProps) => {
+    /*
+    return true if passing nextProps to render would return
+    the same result as passing prevProps to render,
+    otherwise return false
+    */
+    // this is the inverse from shouldComponentUpdate.
+    // console.log(prevProps, nextProps)
+    return prevProps.valueInput === nextProps.valueInput;
+}
+
+export default React.memo(HideShowInput, areEqual);
